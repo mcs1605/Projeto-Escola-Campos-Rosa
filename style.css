@@ -1,0 +1,275 @@
+body {
+    background-color: #F1F1F1;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 330px;
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER - SEÇÃO1 - cabeçalho com itens e logo*/
+#seção1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 2em;
+}
+
+#logo {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin-left: -6em;
+    width: 173px;
+    height: 208px;
+    overflow: visible;
+    z-index: 1;
+}
+
+li {
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #343F64;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
+    width: 100%;
+    color: white;
+    height: 75px;
+    overflow: visible;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/*FIM HEADER - SEÇÃO1*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*VIDEO SEÇÃO2 - imagem - faixada*/
+
+#videoSecao2 {
+    width: 100%;
+    filter: brightness(0.5);
+    margin: -150px 0 0 0;
+    z-index: -1;
+    position: relative;
+}
+
+/*FIM VIDEO SEÇÃO2*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*INFORMAÇÕES SEÇÃO3*/
+
+#seção3 {
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 580px;
+    padding: 0;
+    margin: -300px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+}
+
+#moldura-foto-diretora {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 730px;
+    margin: -150px 0 0 40px;
+    z-index: 2;
+    align-items: baseline;
+    text-align: justify;
+    color:#343F64;
+}
+
+#foto-diretora {
+    background-image: url("img/diretora.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 317px;
+    padding: 0;
+    margin: 60px 0 0 80px;
+    position: relative;
+    display: flex;
+    z-index: 3;
+}
+
+#eventos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #343F64;
+    width: 500px;
+    height: 570px;
+    padding: 0;
+    margin: -150px 0 0 0;
+    z-index: 2;
+    align-items: baseline;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+#ultimos-eventos {
+    margin: 40px 0 0 80px;
+}
+
+/*FIM INFORMAÇÕES SEÇÃO3*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*INFORMAÇÕES SEÇÃO4*/
+
+/*coluna 1*/
+#seção4 {
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 2000px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+
+}
+
+#noticias {
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+
+#moldura-noticias {
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#imagem-omasp {
+    background-color: #FFFFFF;
+    background-image: url(img/omasp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+}
+
+#imagem-pintura {
+    background-color: #FFFFFF;
+    background-image: url(img/fotos-galeria/dependencias1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+#imagem-biblioteca {
+    background-color: #FFFFFF;
+    background-image: url(img/fotos-galeria/biblioteca1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+#noticia1 {
+    margin: 0;
+    padding: 0 40px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/*coluna 2*/
+#moldura-PPP {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+#descrição-PPP {
+    font-size: 24px;
+    margin: 40px 0 0 0;
+    padding: 60px 40px;
+    justify-items: center;
+    text-align: center;
+}
+
+#baixar-PPP {
+    width: 200px;
+    height: 35px;
+}
+
+/*FIM INFORMAÇÕES SEÇÃO4*/
+
+/*RODAPÉ*/
+
+#rodapé {
+    background-color: #343F64;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    height: 170px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    position: sticky;
+}
+
+#imagem-rodapé {
+    background-image: url(img/rodape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1040px;
+    height: 140px;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
